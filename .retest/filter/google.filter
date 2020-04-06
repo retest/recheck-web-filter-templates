@@ -48,7 +48,7 @@ attribute=style
 attribute=onmousedown
 
 # Matchers
-matcher: id=hplogo
+matcher: retestid=hplogo
 matcher: type=meta
 matcher: type=a, attribute=href, value-regex=https://www\.google\.com/setprefs.*
 matcher: type=g-dialog, attribute=id, value-regex=ow.*
@@ -56,5 +56,3 @@ matcher: type=g-dialog, attribute=id, value-regex=ow.*
 # Coronavirus specific messages
 matcher: type=a, attribute=href, value-regex=.*coronavirus.*
 matcher: retestid=stay_home_save
-
-
