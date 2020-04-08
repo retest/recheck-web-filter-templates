@@ -1,0 +1,29 @@
+# retestde.filter
+
+attribute=font-size
+pixel-diff=1px
+
+color-diff=5%
+
+attribute-regex=border-.*-color
+attribute=box-shadow
+
+attribute=transition-timing-function
+
+attribute-regex=margin-.*
+
+attribute=class
+
+matcher: type=meta
+matcher: type=div, attribute=id, value-regex=player_uid_.*
+matcher: type=div, attribute=id, value-regex=hbspt-form-.*
+matcher: type=iframe, attribute=src, value-regex=https://app\.hubspot\.com/conversations-visitor.*
+matcher: type=img, attribute=src, value-regex=//static\.hsappstatic\.net/conversations-visitor-experience-components/.*
+matcher: retestid=hubspotmessages
+matcher: type=div, attribute=aria-hidden
+matcher: type=svg, attribute=background-image
+
+matcher: retestid=youtubeplayer
+matcher: retestid=player_uid_4925
+matcher: retestid=a, value-regex=.*yt3\.ggpht\.com.*
+matcher: retestid=accept, attribute=outline
