@@ -1,0 +1,18 @@
+# baidu.filter
+
+# font-size may vary 1px
+attribute=font-size
+pixel-diff=1px
+
+# color changes
+color-diff=5%
+
+# pixel changes
+pixel-diff=5px
+
+# Badu logo
+matcher: id=lg
+matcher: id=s_lg_img_new
+
+# QR code
+matcher: type=div, attribute=background-image, value-regex=.*https://dss0\.bdstatic\.com/5aV1bjqh_Q23odCf/static/superman/img/qrcode/.*
