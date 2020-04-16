@@ -1,7 +1,7 @@
 recheck-web-filter-templates
 ===================
 
-![Action status](https://github.com/actions/retest/recheck-web-filter-templates/workflows/.github/workflows/main.yml/badge.svg)
+![Action status](https://github.com/retest/recheck-web-filter-templates/workflows/main/badge.svg)
 
 This project includes sample filters to test three websites with [recheck-web](https://github.com/retest/recheck-web):
 
